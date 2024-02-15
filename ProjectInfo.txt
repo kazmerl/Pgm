@@ -1,0 +1,12 @@
+InvalidTestFiles 	- invalid pgm test files
+TwoValidFiles		- two valid pgm test files
+TenValidFiles		- ten valid pgm test files 
+PgmAverageApp		- Project for the Pgm application
+
+The project is created with VSCode, it can be compiled in VSCode in two ways:
+	1. Cl.exe 	- by clicking the PgmAverageApp.cpp and pushing run from VSCode
+	2. CMake 	- right clicking the CMakeLists.txt and choose the build option, CMake and g++(mingw64) has to be installed on the local computer
+
+RunPgm.bat:
+	- Runs the application in a docker container(creates a docker container with a docker image receiving the PgmAverageApp.exe(compiled with cl) from the PgmAverageApp directory) -
+	- It has to receive as parameter the full path containing the pgm files - can be one of the above mentioned directories with the test files
