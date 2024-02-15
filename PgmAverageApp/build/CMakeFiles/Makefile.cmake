@@ -88,4 +88,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/ContinuousMemCheck.dir/DependInfo.cmake"
   "CMakeFiles/ContinuousSubmit.dir/DependInfo.cmake"
   "CMakeFiles/PgmAverageApp.dir/DependInfo.cmake"
+  "CMakeFiles/MyTest.dir/DependInfo.cmake"
   )

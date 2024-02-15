@@ -522,6 +522,19 @@ PgmAverageApp/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PgmAverageApp.dir\build.make CMakeFiles/PgmAverageApp.dir/build
 .PHONY : PgmAverageApp/fast
 
+#=============================================================================
+# Target rules for targets named MyTest
+
+# Build rule for target.
+MyTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 MyTest
+.PHONY : MyTest
+
+# fast build rule for target.
+MyTest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyTest.dir\build.make CMakeFiles/MyTest.dir/build
+.PHONY : MyTest/fast
+
 PgmAverageApp.obj: PgmAverageApp.cpp.obj
 .PHONY : PgmAverageApp.obj
 
@@ -546,12 +559,37 @@ PgmAverageApp.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PgmAverageApp.dir\build.make CMakeFiles/PgmAverageApp.dir/PgmAverageApp.cpp.s
 .PHONY : PgmAverageApp.cpp.s
 
+PgmAverageAppTest.obj: PgmAverageAppTest.cpp.obj
+.PHONY : PgmAverageAppTest.obj
+
+# target to build an object file
+PgmAverageAppTest.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyTest.dir\build.make CMakeFiles/MyTest.dir/PgmAverageAppTest.cpp.obj
+.PHONY : PgmAverageAppTest.cpp.obj
+
+PgmAverageAppTest.i: PgmAverageAppTest.cpp.i
+.PHONY : PgmAverageAppTest.i
+
+# target to preprocess a source file
+PgmAverageAppTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyTest.dir\build.make CMakeFiles/MyTest.dir/PgmAverageAppTest.cpp.i
+.PHONY : PgmAverageAppTest.cpp.i
+
+PgmAverageAppTest.s: PgmAverageAppTest.cpp.s
+.PHONY : PgmAverageAppTest.s
+
+# target to generate assembly for a file
+PgmAverageAppTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyTest.dir\build.make CMakeFiles/MyTest.dir/PgmAverageAppTest.cpp.s
+.PHONY : PgmAverageAppTest.cpp.s
+
 src/model/PgmAverageImage.obj: src/model/PgmAverageImage.cpp.obj
 .PHONY : src/model/PgmAverageImage.obj
 
 # target to build an object file
 src/model/PgmAverageImage.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PgmAverageApp.dir\build.make CMakeFiles/PgmAverageApp.dir/src/model/PgmAverageImage.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyTest.dir\build.make CMakeFiles/MyTest.dir/src/model/PgmAverageImage.cpp.obj
 .PHONY : src/model/PgmAverageImage.cpp.obj
 
 src/model/PgmAverageImage.i: src/model/PgmAverageImage.cpp.i
@@ -560,6 +598,7 @@ src/model/PgmAverageImage.i: src/model/PgmAverageImage.cpp.i
 # target to preprocess a source file
 src/model/PgmAverageImage.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PgmAverageApp.dir\build.make CMakeFiles/PgmAverageApp.dir/src/model/PgmAverageImage.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyTest.dir\build.make CMakeFiles/MyTest.dir/src/model/PgmAverageImage.cpp.i
 .PHONY : src/model/PgmAverageImage.cpp.i
 
 src/model/PgmAverageImage.s: src/model/PgmAverageImage.cpp.s
@@ -568,6 +607,7 @@ src/model/PgmAverageImage.s: src/model/PgmAverageImage.cpp.s
 # target to generate assembly for a file
 src/model/PgmAverageImage.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PgmAverageApp.dir\build.make CMakeFiles/PgmAverageApp.dir/src/model/PgmAverageImage.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyTest.dir\build.make CMakeFiles/MyTest.dir/src/model/PgmAverageImage.cpp.s
 .PHONY : src/model/PgmAverageImage.cpp.s
 
 src/model/PgmImage.obj: src/model/PgmImage.cpp.obj
@@ -576,6 +616,7 @@ src/model/PgmImage.obj: src/model/PgmImage.cpp.obj
 # target to build an object file
 src/model/PgmImage.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PgmAverageApp.dir\build.make CMakeFiles/PgmAverageApp.dir/src/model/PgmImage.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyTest.dir\build.make CMakeFiles/MyTest.dir/src/model/PgmImage.cpp.obj
 .PHONY : src/model/PgmImage.cpp.obj
 
 src/model/PgmImage.i: src/model/PgmImage.cpp.i
@@ -584,6 +625,7 @@ src/model/PgmImage.i: src/model/PgmImage.cpp.i
 # target to preprocess a source file
 src/model/PgmImage.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PgmAverageApp.dir\build.make CMakeFiles/PgmAverageApp.dir/src/model/PgmImage.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyTest.dir\build.make CMakeFiles/MyTest.dir/src/model/PgmImage.cpp.i
 .PHONY : src/model/PgmImage.cpp.i
 
 src/model/PgmImage.s: src/model/PgmImage.cpp.s
@@ -592,6 +634,7 @@ src/model/PgmImage.s: src/model/PgmImage.cpp.s
 # target to generate assembly for a file
 src/model/PgmImage.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PgmAverageApp.dir\build.make CMakeFiles/PgmAverageApp.dir/src/model/PgmImage.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyTest.dir\build.make CMakeFiles/MyTest.dir/src/model/PgmImage.cpp.s
 .PHONY : src/model/PgmImage.cpp.s
 
 src/model/PgmImageHeader.obj: src/model/PgmImageHeader.cpp.obj
@@ -600,6 +643,7 @@ src/model/PgmImageHeader.obj: src/model/PgmImageHeader.cpp.obj
 # target to build an object file
 src/model/PgmImageHeader.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PgmAverageApp.dir\build.make CMakeFiles/PgmAverageApp.dir/src/model/PgmImageHeader.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyTest.dir\build.make CMakeFiles/MyTest.dir/src/model/PgmImageHeader.cpp.obj
 .PHONY : src/model/PgmImageHeader.cpp.obj
 
 src/model/PgmImageHeader.i: src/model/PgmImageHeader.cpp.i
@@ -608,6 +652,7 @@ src/model/PgmImageHeader.i: src/model/PgmImageHeader.cpp.i
 # target to preprocess a source file
 src/model/PgmImageHeader.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PgmAverageApp.dir\build.make CMakeFiles/PgmAverageApp.dir/src/model/PgmImageHeader.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyTest.dir\build.make CMakeFiles/MyTest.dir/src/model/PgmImageHeader.cpp.i
 .PHONY : src/model/PgmImageHeader.cpp.i
 
 src/model/PgmImageHeader.s: src/model/PgmImageHeader.cpp.s
@@ -616,6 +661,7 @@ src/model/PgmImageHeader.s: src/model/PgmImageHeader.cpp.s
 # target to generate assembly for a file
 src/model/PgmImageHeader.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PgmAverageApp.dir\build.make CMakeFiles/PgmAverageApp.dir/src/model/PgmImageHeader.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyTest.dir\build.make CMakeFiles/MyTest.dir/src/model/PgmImageHeader.cpp.s
 .PHONY : src/model/PgmImageHeader.cpp.s
 
 src/reader/PgmImageReader.obj: src/reader/PgmImageReader.cpp.obj
@@ -624,6 +670,7 @@ src/reader/PgmImageReader.obj: src/reader/PgmImageReader.cpp.obj
 # target to build an object file
 src/reader/PgmImageReader.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PgmAverageApp.dir\build.make CMakeFiles/PgmAverageApp.dir/src/reader/PgmImageReader.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyTest.dir\build.make CMakeFiles/MyTest.dir/src/reader/PgmImageReader.cpp.obj
 .PHONY : src/reader/PgmImageReader.cpp.obj
 
 src/reader/PgmImageReader.i: src/reader/PgmImageReader.cpp.i
@@ -632,6 +679,7 @@ src/reader/PgmImageReader.i: src/reader/PgmImageReader.cpp.i
 # target to preprocess a source file
 src/reader/PgmImageReader.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PgmAverageApp.dir\build.make CMakeFiles/PgmAverageApp.dir/src/reader/PgmImageReader.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyTest.dir\build.make CMakeFiles/MyTest.dir/src/reader/PgmImageReader.cpp.i
 .PHONY : src/reader/PgmImageReader.cpp.i
 
 src/reader/PgmImageReader.s: src/reader/PgmImageReader.cpp.s
@@ -640,6 +688,7 @@ src/reader/PgmImageReader.s: src/reader/PgmImageReader.cpp.s
 # target to generate assembly for a file
 src/reader/PgmImageReader.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PgmAverageApp.dir\build.make CMakeFiles/PgmAverageApp.dir/src/reader/PgmImageReader.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyTest.dir\build.make CMakeFiles/MyTest.dir/src/reader/PgmImageReader.cpp.s
 .PHONY : src/reader/PgmImageReader.cpp.s
 
 src/writer/PgmImageWriter.obj: src/writer/PgmImageWriter.cpp.obj
@@ -648,6 +697,7 @@ src/writer/PgmImageWriter.obj: src/writer/PgmImageWriter.cpp.obj
 # target to build an object file
 src/writer/PgmImageWriter.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PgmAverageApp.dir\build.make CMakeFiles/PgmAverageApp.dir/src/writer/PgmImageWriter.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyTest.dir\build.make CMakeFiles/MyTest.dir/src/writer/PgmImageWriter.cpp.obj
 .PHONY : src/writer/PgmImageWriter.cpp.obj
 
 src/writer/PgmImageWriter.i: src/writer/PgmImageWriter.cpp.i
@@ -656,6 +706,7 @@ src/writer/PgmImageWriter.i: src/writer/PgmImageWriter.cpp.i
 # target to preprocess a source file
 src/writer/PgmImageWriter.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PgmAverageApp.dir\build.make CMakeFiles/PgmAverageApp.dir/src/writer/PgmImageWriter.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyTest.dir\build.make CMakeFiles/MyTest.dir/src/writer/PgmImageWriter.cpp.i
 .PHONY : src/writer/PgmImageWriter.cpp.i
 
 src/writer/PgmImageWriter.s: src/writer/PgmImageWriter.cpp.s
@@ -664,6 +715,7 @@ src/writer/PgmImageWriter.s: src/writer/PgmImageWriter.cpp.s
 # target to generate assembly for a file
 src/writer/PgmImageWriter.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PgmAverageApp.dir\build.make CMakeFiles/PgmAverageApp.dir/src/writer/PgmImageWriter.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyTest.dir\build.make CMakeFiles/MyTest.dir/src/writer/PgmImageWriter.cpp.s
 .PHONY : src/writer/PgmImageWriter.cpp.s
 
 # Help Target
@@ -705,10 +757,14 @@ help:
 	@echo ... NightlySubmit
 	@echo ... NightlyTest
 	@echo ... NightlyUpdate
+	@echo ... MyTest
 	@echo ... PgmAverageApp
 	@echo ... PgmAverageApp.obj
 	@echo ... PgmAverageApp.i
 	@echo ... PgmAverageApp.s
+	@echo ... PgmAverageAppTest.obj
+	@echo ... PgmAverageAppTest.i
+	@echo ... PgmAverageAppTest.s
 	@echo ... src/model/PgmAverageImage.obj
 	@echo ... src/model/PgmAverageImage.i
 	@echo ... src/model/PgmAverageImage.s

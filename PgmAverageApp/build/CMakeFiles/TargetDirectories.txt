@@ -27,6 +27,7 @@ C:/Personal_Stuff/Pgm/PgmAverageApp/build/CMakeFiles/ContinuousCoverage.dir
 C:/Personal_Stuff/Pgm/PgmAverageApp/build/CMakeFiles/ContinuousMemCheck.dir
 C:/Personal_Stuff/Pgm/PgmAverageApp/build/CMakeFiles/ContinuousSubmit.dir
 C:/Personal_Stuff/Pgm/PgmAverageApp/build/CMakeFiles/PgmAverageApp.dir
+C:/Personal_Stuff/Pgm/PgmAverageApp/build/CMakeFiles/MyTest.dir
 C:/Personal_Stuff/Pgm/PgmAverageApp/build/CMakeFiles/package.dir
 C:/Personal_Stuff/Pgm/PgmAverageApp/build/CMakeFiles/package_source.dir
 C:/Personal_Stuff/Pgm/PgmAverageApp/build/CMakeFiles/test.dir

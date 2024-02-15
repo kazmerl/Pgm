@@ -34,5 +34,41 @@
   "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/PgmAverageApp.dir/includes_CXX.rsp -g -std=c++17 -o CMakeFiles\\PgmAverageApp.dir\\PgmAverageApp.cpp.obj -c C:\\Personal_Stuff\\Pgm\\PgmAverageApp\\PgmAverageApp.cpp",
   "file": "C:/Personal_Stuff/Pgm/PgmAverageApp/PgmAverageApp.cpp",
   "output": "CMakeFiles/PgmAverageApp.dir/PgmAverageApp.cpp.obj"
+},
+{
+  "directory": "C:/Personal_Stuff/Pgm/PgmAverageApp/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -std=c++17 -o CMakeFiles\\MyTest.dir\\src\\model\\PgmImageHeader.cpp.obj -c C:\\Personal_Stuff\\Pgm\\PgmAverageApp\\src\\model\\PgmImageHeader.cpp",
+  "file": "C:/Personal_Stuff/Pgm/PgmAverageApp/src/model/PgmImageHeader.cpp",
+  "output": "CMakeFiles/MyTest.dir/src/model/PgmImageHeader.cpp.obj"
+},
+{
+  "directory": "C:/Personal_Stuff/Pgm/PgmAverageApp/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -std=c++17 -o CMakeFiles\\MyTest.dir\\src\\model\\PgmImage.cpp.obj -c C:\\Personal_Stuff\\Pgm\\PgmAverageApp\\src\\model\\PgmImage.cpp",
+  "file": "C:/Personal_Stuff/Pgm/PgmAverageApp/src/model/PgmImage.cpp",
+  "output": "CMakeFiles/MyTest.dir/src/model/PgmImage.cpp.obj"
+},
+{
+  "directory": "C:/Personal_Stuff/Pgm/PgmAverageApp/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -std=c++17 -o CMakeFiles\\MyTest.dir\\src\\model\\PgmAverageImage.cpp.obj -c C:\\Personal_Stuff\\Pgm\\PgmAverageApp\\src\\model\\PgmAverageImage.cpp",
+  "file": "C:/Personal_Stuff/Pgm/PgmAverageApp/src/model/PgmAverageImage.cpp",
+  "output": "CMakeFiles/MyTest.dir/src/model/PgmAverageImage.cpp.obj"
+},
+{
+  "directory": "C:/Personal_Stuff/Pgm/PgmAverageApp/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -std=c++17 -o CMakeFiles\\MyTest.dir\\src\\reader\\PgmImageReader.cpp.obj -c C:\\Personal_Stuff\\Pgm\\PgmAverageApp\\src\\reader\\PgmImageReader.cpp",
+  "file": "C:/Personal_Stuff/Pgm/PgmAverageApp/src/reader/PgmImageReader.cpp",
+  "output": "CMakeFiles/MyTest.dir/src/reader/PgmImageReader.cpp.obj"
+},
+{
+  "directory": "C:/Personal_Stuff/Pgm/PgmAverageApp/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -std=c++17 -o CMakeFiles\\MyTest.dir\\src\\writer\\PgmImageWriter.cpp.obj -c C:\\Personal_Stuff\\Pgm\\PgmAverageApp\\src\\writer\\PgmImageWriter.cpp",
+  "file": "C:/Personal_Stuff/Pgm/PgmAverageApp/src/writer/PgmImageWriter.cpp",
+  "output": "CMakeFiles/MyTest.dir/src/writer/PgmImageWriter.cpp.obj"
+},
+{
+  "directory": "C:/Personal_Stuff/Pgm/PgmAverageApp/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -std=c++17 -o CMakeFiles\\MyTest.dir\\PgmAverageAppTest.cpp.obj -c C:\\Personal_Stuff\\Pgm\\PgmAverageApp\\PgmAverageAppTest.cpp",
+  "file": "C:/Personal_Stuff/Pgm/PgmAverageApp/PgmAverageAppTest.cpp",
+  "output": "CMakeFiles/MyTest.dir/PgmAverageAppTest.cpp.obj"
 }
 ]
